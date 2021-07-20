@@ -15,7 +15,7 @@ public class TuoiTreRSS {
     public static void main(String[] args) {
         System.out.println(readRss("https://tuoitre.vn/rss/tin-moi-nhat.rss"));
     }
-    // Algorithm to read RSS feed from https://www.youtube.com/watch?v=xiK-DH74oJg
+    // Algorithm to read RSS feed and extract the title from https://www.youtube.com/watch?v=xiK-DH74oJg
     public static String readRss(String url) {
         try {
             URL Url = new URL(url);
